@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet"  href="css/template.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Todo List Amine</title>
+</head>
+
+<body>
+  <h1 class="titrep">TO-DO LIST</h1>
+  <div class="inter">
+    <input type="text"  id="rechercher" placeholder="Recherche">
+  </div>  
+           
+  <form action="" class="search">
+     <input type="button" onclick="search()" class="brechercher" value="Rechercher"/>
+  </form>
+   
+    <div class="te">
+      <h2 class="titres1">
+                Tache
+      </h2>
+      <h2 class="titres2">
+                Etat
+      </h2>
+        
+      <ul class="todo"></ul>
+
+      <form  class="add">
+        <i class="fa fa-plus"></i>
+        <input type="text" class="ajouter" name="add" placeholder="Ajouter une tache" />
+      </form>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="javascript/main.js"></script>
+    
+</body>
+<footer></footer>
+
+</html>
